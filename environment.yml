@@ -1,0 +1,13 @@
+name: pml_project
+channels:
+  - defaults
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - pip
+  - pip:
+    - matplotlib
+    - seaborn
+    - scikit-learn
+    - streamlit
